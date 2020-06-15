@@ -115,11 +115,11 @@ nav ul {
 
 #portfolio img {
     width: 80%;
+    border-radius: 10px;
 }
 
-#portfolio h4 {
+#portfolio h4 a {
     color: #5CFFF7;
-    text-decoration: underline;
     margin-bottom: 7px;
 }
 
