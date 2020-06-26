@@ -163,6 +163,7 @@ p {
 
     #about p {
         margin: auto 200px;
+        flex: 1;
     }
 }
 
