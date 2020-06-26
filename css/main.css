@@ -164,6 +164,8 @@ p {
 
     #about p {
         margin: auto 200px;
+        width: 85%;
+    
     }
 }
 
@@ -183,15 +185,17 @@ p {
     justify-content: space-evenly;
     width: 33%;
     margin-top: 15px;
-
-    
 }
 
 #contact img{
     width: 50px;
 }
 
-
+@media (min-width: 1025px) {
+    #contact .social-icons {
+        justify-content: space-between;
+    }
+}
 
 /* Footer */
 
